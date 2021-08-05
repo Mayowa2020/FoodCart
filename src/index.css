@@ -10,7 +10,9 @@ ul {
   justify-content: space-between;
 }
 
-.row {
+.row,
+.column,
+.list {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,7 +33,8 @@ nav a {
   padding-top: 100px;
 }
 
-select {
+select,
+button {
   width: 100%;
   margin: 1.5em 0;
   padding: 8px 20px;
@@ -70,4 +73,15 @@ select {
 
 .terms {
   padding-top: 40px;
+}
+
+.products img {
+  width: 150px;
+}
+
+button {
+  width: 80%;
+  color: #fff;
+  background-color: brown;
+  margin-left: 150px;
 }
