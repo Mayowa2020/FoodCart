@@ -1,12 +1,16 @@
-import React, { Component } from "react";
-import Cartitem from "./Cartitem";
+import React from 'react';
+import Header from './Header';  
+import Cartitems from "./Cartitems";
 
-class Cart extends Component {
-  render() {
-    return this.props.cart.map((cartitem) => (
-      <Cartitem key={cartitem.id} cartitem={cartitem} />
-    ));
-  }
+
+const Cart = () => {
+  return (
+    <div>
+      <Header />
+      <Cartitems/>
+    </div>
+  )
 }
 
-export default Cart;
+export default Cart
+

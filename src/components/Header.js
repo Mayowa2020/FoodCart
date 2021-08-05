@@ -1,19 +1,21 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Header = (props) => {
   return (
-    <header className="row block center">
-      <div>
-          <a href="#/">
-              <h2>FoodBag</h2>
-          </a>
-      </div>
-       <div>
-           <a href="#/cart">Cart</a>           
-            <a href="#/login">Login</a>       
-            <a href="#/signup">Signup</a>
-        </div>   
-    </header>
+    <nav className="row">
+      <NavLink to="/">
+        <h2>FoodBag</h2>
+      </NavLink>
+
+      <ul>
+        <li>
+          <NavLink to="/cart">Cart</NavLink>
+        </li>
+        <li>Login</li>
+        <li>Signup</li>
+      </ul>
+    </nav>
   );
 };
 
