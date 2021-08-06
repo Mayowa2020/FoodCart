@@ -3,7 +3,7 @@ import Facebook from "./Images/facebook-f 1.svg";
 import Youtube from "./Images/youtube 1.svg";
 import Twitter from "./Images/twitter 2.svg";
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <footer className="details">
       <section>

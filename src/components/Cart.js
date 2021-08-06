@@ -3,14 +3,16 @@ import Header from './Header';
 import Cartitems from "./Cartitems";
 
 
-const Cart = () => {
+
+const Cart = (props) => {
+  
   return (
     <div>
       <Header />
-      <Cartitems/>
+      <Cartitems />
     </div>
   )
 }
 
-export default Cart
+export default Cart;
 

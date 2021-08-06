@@ -5,7 +5,9 @@ const Header = (props) => {
   return (
     <nav className="row">
       <NavLink to="/">
-        <h2>FoodBag</h2>
+        <h3>
+          Food<span style={{ color: "brown" }}>Bag</span>
+        </h3>
       </NavLink>
 
       <ul>
@@ -13,7 +15,7 @@ const Header = (props) => {
           <NavLink to="/cart">Cart</NavLink>
         </li>
         <li>Login</li>
-        <li>Signup</li>
+        <li style={{ color: "brown", border: "1px solid brown", padding: "10px", borderRadius: "3px"}}>Signup</li>
       </ul>
     </nav>
   );

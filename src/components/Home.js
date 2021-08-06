@@ -4,7 +4,7 @@ import Search from './Search';
 import Serve from './Serve';
 import Footer from './Footer';
 
-const Home = () => {
+const Home = (props) => {
     return (
         <div>
             <Header />

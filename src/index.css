@@ -1,7 +1,19 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 85%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 90%;
   margin: 0 auto;
+  background-color: #f1f1f1;
 }
 
 ul {
@@ -20,11 +32,13 @@ ul {
 
 li {
   display: inline-block;
+  margin-top: 20px;
 }
 
 nav a {
   color: black;
   text-decoration: none;
+  padding-right: 20px;
 }
 
 .home {
@@ -51,6 +65,7 @@ button {
 .col {
   border: 1px solid grey;
   padding: 1.3em;
+  border-radius: 3px;
 }
 
 .interest .colserve {
@@ -79,9 +94,73 @@ button {
   width: 150px;
 }
 
+.products {
+  padding: 30px;
+}
+
 button {
   width: 80%;
   color: #fff;
   background-color: brown;
   margin-left: 150px;
+  font-size: 18px;
+}
+
+.home .intro {
+  font-size: 35px;
+  font-weight: bolder;
+  padding-bottom: 1rem;
+}
+
+.home .pitch {
+  font-size: 20px;
+}
+
+.col h3 {
+  color: brown;
+}
+
+.col p {
+  font-size: small;
+}
+
+.terms p,
+.colserve p {
+  font-size: 18px;
+}
+
+.colserve p,
+.colserve h3,
+.service h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.service h1 {
+  margin-top: 30px;
+  padding-top: 80px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+main h2 {
+  padding-top: 30px;
+}
+
+.column img {
+  padding: 45px 0 30px 0;
+}
+
+.add-btn {
+  background: transparent;
+  color: red;
+  text-transform: capitalize;
+  cursor: pointer;
+ 
+  margin-right: 0px;
+  font-size: 5px;
+  border: 1px grey solid;
+  background-color: #fff;
+  
 }
